@@ -60,7 +60,7 @@
   </tr>
   
   <tr>
-    <td>   <b>2</b> Komoran + diversity=0   </td>
+    <td>   <b>2</b> + Komoran + diversity=0   </td>
     <td> 압축 </td>
     <td> 추출 </td>
     <td> 원본 </td>
@@ -74,7 +74,7 @@
   </tr>
   
   <tr>
-    <td>   <b>2</b> Komoran + diversity=0.5   </td>
+    <td>   <b>2</b> + Komoran + diversity=0.5   </td>
     <td> 압축 </td>
     <td> 설명서 </td>
     <td> 수 </td>
@@ -88,7 +88,7 @@
   </tr>
   
   <tr>
-    <td>   <b>3</b> Komoran   </td>
+    <td>   <b>3</b> + Komoran   </td>
     <td> 설명 </td>
     <td> 논문 </td>
     <td> 정보 </td>
@@ -102,7 +102,7 @@
   </tr>
   
   <tr>
-    <td>   <b>4</b> space   </td>
+    <td>   <b>4</b> + space   </td>
     <td> 압축할 </td>
     <td> 항목입니다 </td>
     <td> 추출 </td>
@@ -116,7 +116,7 @@
   </tr>  
   
   <tr>
-    <td>   <b>4</b> DP   </td>
+    <td>   <b>4</b> + DP   </td>
     <td colspan="3"> 문서를 주요 문장으로 압축할 수 있습니다 </td>
     <td colspan="4"> 통해 추출 텍스트 요약을 사용하여 문서의 요약을 </td>
     <td colspan="3"> 집합적으로 나타내는 문장을 추출합니다 </td>
