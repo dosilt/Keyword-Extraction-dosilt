@@ -25,4 +25,95 @@
     <td> 논문 </td>
     <td> 문서 </td>
   </tr>
+  
+  <tr>
+    <td>   <b>1</b> + Komoran.morphs   </td>
+    <td> 문서 </td>
+    <td> 요약 </td>
+    <td> 수 </td>
+    <td> 텍스트 </td>
+    <td> 정보 </td>
+    <td> 콘텐츠 </td>
+    <td> 기능 </td>
+    <td> 추출 </td>
+    <td> 문장 </td>
+    <td> 광범위 </td>
+  </tr>
+  
+  <tr>
+    <td>   <b>1</b> + Okt.phrase   </td>
+    <td> 방법 </td>
+    <td> 텍스트의 관련 정보 </td>
+    <td> 여러 </td>
+    <td> 가지 </td>
+    <td> 정보 </td>
+    <td> 여러 가지 </td>
+    <td> 여러 가지 방법 </td>
+    <td> 관련 </td>
+    <td> 텍스트의 관련 </td>
+    <td> 항목 </td>
+  </tr>
+  
+  <tr>
+    <td>   <b>2</b> Komoran + diversity=0   </td>
+    <td> 압축 </td>
+    <td> 추출 </td>
+    <td> 원본 </td>
+    <td> 항목 </td>
+    <td> 텍스트 </td>
+    <td> 콘텐츠 </td>
+    <td> 생성 </td>
+    <td> 요약 </td>
+    <td> 집합 </td>
+    <td> 문장 </td>
+  </tr>
+  
+  <tr>
+    <td>   <b>2</b> Komoran + diversity=0.5   </td>
+    <td> 압축 </td>
+    <td> 설명서 </td>
+    <td> 수 </td>
+    <td> 텍스트 </td>
+    <td> 원본 </td>
+    <td> 집합 </td>
+    <td> 항목 </td>
+    <td> 논문 </td>
+    <td> 기능 </td>
+    <td> 관련 </td>
+  </tr>
+  
+  <tr>
+    <td>   <b>3</b> Komoran   </td>
+    <td> 설명 </td>
+    <td> 논문 </td>
+    <td> 정보 </td>
+    <td> 압축 </td>
+    <td> 콘텐츠 </td>
+    <td> 항목 </td>
+    <td> 설명서 </td>
+    <td> 텍스트 </td>
+    <td> 요약 </td>
+    <td> 문서 </td>
+  </tr>
+  
+  <tr>
+    <td>   <b>4</b> space   </td>
+    <td> 압축할 </td>
+    <td> 항목입니다 </td>
+    <td> 추출 </td>
+    <td> 원본 </td>
+    <td> 있습니다 </td>
+    <td> 요약을 </td>
+    <td> 추출합니다 </td>
+    <td> 문장으로 </td>
+    <td> 요약은 </td>
+    <td> 주요 </td>
+  </tr>  
+  
+  <tr>
+    <td>   <b>4</b> DP   </td>
+    <td colspan="3"> 문서를 주요 문장으로 압축할 수 있습니다 </td>
+    <td colspan="4"> 통해 추출 텍스트 요약을 사용하여 문서의 요약을 </td>
+    <td colspan="3"> 집합적으로 나타내는 문장을 추출합니다 </td>
+  </tr>
 </table>
