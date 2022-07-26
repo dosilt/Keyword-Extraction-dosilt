@@ -13,3 +13,7 @@
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
+  
+| One    | Two | Three | Four    | Five  | Six
+| -
+| Span <td colspan=3>triple  <td colspan=2>double
