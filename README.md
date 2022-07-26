@@ -20,5 +20,5 @@
 </table>
 
       
-| One    | Two |
-| <td colspan="2">triple<\td>|
+| One | Two |
+| <td colspan="2">triple |
