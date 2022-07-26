@@ -8,6 +8,9 @@
 **4.** DP를 이용하여 keyword/keyphrase를 사전 추출하지 않고 추출 방법 (연구중, KoBERT)  
 
 
+
+
+
   
 <table>
   <tr>
