@@ -10,11 +10,9 @@ import pandas as pd
 
 def init():
     args = easydict.EasyDict({
-        'data_path': 'data/항공안전문화지표 분석모델.csv',  # 분석하고자 하는 csv 파일 경로
         'PLM': "klue/bert-base",  # pre-trained language model 이름, huggingface 사이트에서 찾을 수 있음
         'top_n': 10,     # 문장 당 몇개의 단어를 추출할지 결정
         'maxlen': 512,
-        'save_path': 'test1_split.csv',
         'device': 'cuda'
     })
     return args
@@ -71,7 +69,6 @@ def extractor(sim_matrix, word_unit):
     for r in range(row_index, col_index+1):
         word_unit[r] = None
     return word_unit
-
 
 
 def main(args):
