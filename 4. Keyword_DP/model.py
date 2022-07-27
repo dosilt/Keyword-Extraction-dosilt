@@ -20,22 +20,3 @@ class Model(nn.Module):
         input_ = self.tokenizer(x, padding=True, truncation=True, max_length=self.maxlen, return_tensors='pt').to(self.device)
         output = self.model(**input_)['last_hidden_state'][0]
         return output, input_['input_ids'], x
-
-
-if __name__ == '__main__':
-    import easydict
-    from dataset import load_data
-
-    args = easydict.EasyDict({
-        'data_path': 'data/항공안전문화지표 분석모델.csv',
-        'PLM': 'monologg/koelectra-base-v3-discriminator',
-        'device': 'cpu',
-        'maxlen': 512
-    })
-
-    data = load_data(args)
-    model = Model(args).to(args.device)
-    for d in data:
-        vector, ids, sentence = model(d)
-        print(vector.shape)
-        break
